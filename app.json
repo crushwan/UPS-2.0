@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "DeliveryApp",
-    "slug": "DeliveryApp",
+    "slug": "deliveryapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b27aa87f-e025-42e9-8212-117ace31300d"
+      }
+    },
+    "owner": "krustudio"
   }
 }
